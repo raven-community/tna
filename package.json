@@ -1,0 +1,13 @@
+{
+  "name": "tna",
+  "version": "0.1.2",
+  "description": "Transaction Nucleic Acid",
+  "main": "index.js",
+  "author": "MSFTserver",
+  "license": "MIT",
+  "dependencies": {
+    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib#master",
+    "ravencoind-rpc": "github:raven-community/ravencoind-rpc#master",
+    "dotenv": "^6.0.0"
+  }
+}
