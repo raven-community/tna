@@ -6,7 +6,7 @@
   "author": "MSFTserver",
   "license": "MIT",
   "dependencies": {
-    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib#master",
+    "ravencore-lib": "github:raven-community/ravencore-lib#master",
     "ravencoind-rpc": "github:raven-community/ravencoind-rpc#master",
     "dotenv": "^6.0.0"
   }

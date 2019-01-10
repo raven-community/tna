@@ -1,5 +1,5 @@
 require('dotenv').config()
-const rvn = require('ravencoinjs-lib')
+const rvn = require('ravencore-lib')
 const RpcClient = require('ravencoind-rpc');
 var fromHash = function(hash, config) {
   let c;
