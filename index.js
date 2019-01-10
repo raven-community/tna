@@ -25,7 +25,9 @@ var fromHash = function(hash, config) {
         resolve(result)
       }
     })
-  })
+  }).catch(function(error) {
+  console.log(error);
+});
 }
 var fromTx = function(transaction, options) {
   return new Promise(function(resolve, reject) {
@@ -111,7 +113,9 @@ var fromTx = function(transaction, options) {
       in: inputs,
       out: outputs
     })
-  })
+  }).catch(function(error) {
+  console.log(error);
+});
 }
 module.exports = {
   fromHash: fromHash,
