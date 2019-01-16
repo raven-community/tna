@@ -63,7 +63,7 @@ var fromTx = function(transaction, options) {
             h: input.prevTxId.toString('hex'),
             i: input.outputIndex
           }
-          let address = input.script.toAddress(rvn.Networks.livenet).toString(rvn.Address.LegacyAddrFormat).split(':')[1];
+          let address = input.script.toAddress(rvn.Networks.livenet).toString(rvn.Address.LegacyFormat).split(':')[1];
           if (address && address.length > 0) {
             sender.a = address;
           }
@@ -99,7 +99,7 @@ var fromTx = function(transaction, options) {
             v: output.satoshis,
             i: output_index
           }
-          let address = output.script.toAddress(rvn.Networks.livenet).toString(rvn.Address.LegacyAddrFormat).split(':')[1];
+          let address = output.script.toAddress(rvn.Networks.livenet).toString(rvn.Address.LegacyFormat).split(':')[1];
           if (address && address.length > 0) {
             receiver.a = address;
           }
